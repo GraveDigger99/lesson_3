@@ -1,0 +1,75 @@
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+/* ================================================================ */
+.link{
+	color: brown;
+}
+.page-info h1{
+	color: blue;
+}
+p.info-text{
+	color: blueviolet;
+}
+.sun{
+	color: darkorange;
+}	
+span{
+	color: yellowgreen;
+}
+#count{
+	color: tomato;
+}
+.galaxy-title{
+	color:lightskyblue
+}
+[class*="-text"]{
+	color: maroon;
+}
+.galaxy-type > p {
+	color: mediumseagreen;
+}
+p span {
+	color: peru;
+}
+.world .text{
+	color: saddlebrown;
+}
+
+.space-info ~ p {
+	color: turquoise;
+}
+.black-hole-info + p{
+	color: chartreuse;
+}
+*{
+	color: green;
+}
